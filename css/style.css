@@ -1,0 +1,100 @@
+body{
+   line-height: 2;
+   
+}
+
+
+header, nav{
+    padding: 10px 15px;
+    margin: 20px;
+}
+nav ul li{
+    /* Set display, margin, padding, font-size, background-color */
+    display: inline;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+nav a{
+    /* Set text decoration*/
+    text-decoration: none;
+}
+
+a:visited{
+    /* Set color */
+    color: #000;
+}
+
+nav a.current{
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+   /*Set font and font size*/
+
+}
+
+h2{
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    /*Set margin */
+
+}
+.grid{
+    /*Set width, margin, border properties, background color, and grid properties */
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    grid-template-columns: repeat(3, 30%);
+    gap: 10px;
+    justify-content: center;
+}
+
+.grid div{
+    /* Set border properties, padding, and background color */
+}
+
+.grid img{
+    /* Set width, margin, and display */
+    display: grid;
+    margin: 5% auto;
+    grid-column: 90% 10%;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
